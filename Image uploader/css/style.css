@@ -1,0 +1,88 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: #5a497b7d;
+}
+
+p {
+  font-style: italic;
+}
+
+.title {
+  padding-top: 40px;
+}
+
+.sub_title {
+  padding: 10px 0 10px 0;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3 , 2fr);
+  width: 93%;
+  grid-gap: 20px;
+  margin-top: 50px;
+}
+
+.images li {
+  list-style-type: none;
+}
+
+.images li img {
+  width:  400px;
+  height: 400px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+  border: 5px solid black;
+  position: relative;
+}
+
+#removeButton:hover {
+  cursor: pointer;
+}
+
+#removeButton {
+  background-color: darkorange;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family: 'Source Code Pro', monospace;
+  outline: none;
+  padding: 6px 14px;
+  margin-top: 8px;
+}
+
+figcaption p {
+  margin: 5px;
+}
+
+#progress {
+  padding-left: 5px;
+}
+
+.delete, .changeText {
+  font-style: italic;
+  border-radius: 27px;
+  background-color: #479da6; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 23px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.delete:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.changeText:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
