@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Frontend Course</title>
+</head>
+    <body>
+        <div class="wrapper">
+            <div class="current-weather">
+
+                <header class="info-location">
+                    <div>
+                        <section id="current-location">Your location</section>
+                        <section id="current-day"></section>
+                        <div id="current-weather-details">
+                            <section id="current-temperature"></section>
+                            <section id="current-wather-img"></section>
+                        </div>
+                    </div>
+                    
+                    <section class="search">
+                        <input class="words" type="text" placeholder="Search city">
+                        <button class="geoPositBtn" id="get-weather"><img src="icons/location-pointer.png"></button>
+                        <button id="get-city"><img src="icons/microphone.png"></button>
+                    </section>
+                </header>
+
+                
+
+                <p id="weather-summary">---</p>
+
+                <section class="weather-details">
+                    <div id="current-humidity">---</div>
+                    <div id="current-pressure">---</div>
+                    <div id="current-wind-speed">---</div>
+                </section>               
+            </div>
+            <div class="weather-for-five-days">
+                <div id="weather_for_next_days"></div>
+            </div>
+        </div>
+     
+        
+        
+
+        <script src="js/script.js"></script>
+        <script src="js/scripVoice.js"></script>
+        <script src="js/sciptForFiveDays.js"></script>
+    </body>
+</html>
