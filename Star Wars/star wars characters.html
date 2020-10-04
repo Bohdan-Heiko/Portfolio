@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Star wars characters</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/normalize.css">
+    </head>
+
+    <body>
+        <div class="wrap">
+            <div class="baner">
+                <div id="mainPage" class="main_page">
+                    <div class="hero_page">
+                        <ul id="characters" class="characters"><li></li></ul>
+                    </div>  
+                    <div class="buttons">
+                        <div class="button_prev_next">
+                            <input type="button" value="Prev" id="buttonPrev" class="button_prev">
+                            <input type="button" value="Next" id="buttonNext" class="button_next">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div id="character" class="character">
+                    <h3 id="name" class="heading"></h3>
+                    <ul class="hero_param">
+                        <li id="yearOfBirth">Год рождения:</li>
+                        <li id="movielList">Список фильмов:</li>
+                        <li id="homePlanet">Родная планета:</li>
+                        <li id="species">Подвид:</li>
+                    </ul>
+
+                    <input type="button" value="backToList" id="backToList" class="back_to_ist">  
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/js.js"></script>
+</html>
