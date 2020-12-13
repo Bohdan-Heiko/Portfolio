@@ -1,0 +1,385 @@
+.img-adaptiv{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body{
+  font-family: 'Playfair Display', serif;
+  margin: 0px;
+}
+
+header{
+  height: 160px;
+}
+
+header div img{
+  display: inline-block;
+  margin-top: 70px;
+}
+
+header nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li {
+  font-size: 14px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 70px 0 0 70px;
+}
+
+header nav ul li a {
+  color: #626262;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  color: #626262;
+  text-decoration: underline;
+}
+
+section.content-post {
+  margin-top: 90px;
+  padding: 0 80px;
+}
+
+section.content-post div.category a, section.content-post a.comment{
+  color: #b4ad9e;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section.content-post h2 {
+  color: #626262;
+  font-size: 30px;
+}
+
+section.content-post div.content {
+  color: #626262;
+  font-size: 14px;
+}
+
+section.content-post div.category a:hover, section.content-post a.comment:hover{
+  text-decoration: underline;
+}
+
+section.next-post {
+  margin-top: 90px;
+  padding: 0 80px;
+}
+
+section.next-post div.category a{
+  display: block;
+  color: #b4ad9e;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+section.next-post h2 {
+  color: #626262;
+  font-size: 30px;
+}
+
+section.next-post div.content {
+  color: #626262;
+  font-size: 14px;
+}
+
+section.next-post div.post {
+  margin-bottom: 130px;
+}
+
+section.newsletter {
+  height: 280px;
+  background: #f0f0f0;
+  padding-top: 70px;
+}
+
+section.newsletter div.sign {
+  color: #626262;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+section.newsletter form {
+  width: 400px;
+  border-bottom: 1px solid #000;
+  margin: 0 auto;
+  padding-bottom: 6px;
+}
+
+section.newsletter form input{
+  border: none;
+  background: inherit;
+  width: 350px;
+}
+
+section.newsletter form button{
+  float: right;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+div.more {
+  text-align: center;
+}
+
+div.more a{
+  color: #626262;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 20px;
+}
+
+footer{
+  height: 100px;
+  background: #f0f0f0;
+  margin-top: 70px;
+  padding: 44px;
+}
+
+footer div.container div {
+  padding: 0 80px;
+}
+
+footer div.left {
+  display: flex;
+  margin: 0 auto;
+}
+
+footer div.left p {
+  margin-right: 25px;
+}
+
+footer div.left a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer div.right {
+  display: flex; 
+}
+
+footer div.right p {
+  margin-right: 30px;
+}
+
+footer div.right img{
+  height: 18px;
+  margin-right: 10px;
+}
+
+div.post img{
+  height: 246px;
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header nav ul li {
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 70px 0 0 20px;
+  }
+
+  .post-1{
+    margin-top: -70px;
+  }
+  section.content-post {
+    margin-top: 25px;
+    padding: 0 25px;
+  }
+
+  section.next-post {
+    margin-top: 30px;
+    padding: 0 72px;
+  }
+  div.post img {
+    height: 246px;
+    width: 360px;
+  }
+
+  section.next-post div.post {
+    margin-bottom: 30px;
+  }
+
+  section.newsletter {
+    height: 280px;
+    background: #f0f0f0;
+    padding-top: 15px;
+  }
+
+  section.newsletter div.sign {
+    color: #626262;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+
+  section.newsletter {
+    height: 170px;
+    background: #f0f0f0;
+    padding-top: 15px;
+  }
+
+  div.more a {
+    color: #626262;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 11px;
+  }
+
+  footer div.container div {
+    padding: 0 7px;
+  }
+
+  footer div.right img {
+    height: 18px;
+    margin-right: 29px;
+  }
+}
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header div img {
+    display: inline-block;
+    margin-top: 38px;
+  }
+
+  header nav ul{
+    margin-top: -30px;
+  }
+
+  .post-1{
+    margin-top: -97px;
+  }
+  
+  section.content-post {
+    margin-top: 40px;
+    padding: 0 80px;
+  }
+
+  section.next-post {
+    margin-top: 40px;
+    padding: 0 80px;
+  }
+
+  section.next-post h2 {
+    color: #626262;
+    font-size: 25px;
+  }
+
+  section div p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 15px;
+  }
+
+  section.next-post div.post {
+    margin-bottom: 40px;
+  }
+  
+  section.next-post h2 {
+    color: #626262;
+    font-size: 22px;
+  }
+
+  div.post img {
+    height: 210px;
+  }
+
+  div.more a {
+    color: #626262;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0px;
+    border: 1px solid #000;
+    display: inline-block;
+    padding: 11px;
+  }
+
+  section.newsletter {
+    height: 280px;
+    background: #f0f0f0;
+    padding-top: 15px;
+  }
+
+  section.newsletter div.sign {
+    color: #626262;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+
+  section.newsletter {
+    height: 170px;
+    background: #f0f0f0;
+    padding-top: 15px;
+  }
+
+  footer div.container div {
+    padding: 0 30px;
+  }
+
+  footer div.right img {
+    height: 18px;
+    margin-right: 29px;
+  }
+}
+
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header nav ul{
+    margin-top: -40px;
+  }
+
+  header div img {
+    display: inline-block;
+    margin-top: 24px;
+  }
+
+  .post-1{
+    margin-top: -113px;
+  }
+
+  section.next-post {
+    margin-top: 40px;
+    padding: 0 80px;
+  }
+
+  section.next-post div.post {
+    margin-bottom: 30px;
+  }
+
+  footer div.left p {
+    margin-right: 30px;
+  }
+  
+  footer div.right img {
+    height: 18px;
+    margin-right: 36px;
+  }
+}
